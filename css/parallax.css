@@ -1,13 +1,10 @@
 @charset "UTF-8";
 
-div {
+div.sc_ani {
     padding: 200px;
     text-align: center;
 }
 
-div + div {
-    border-top: 1px solid #ccc;
-}
 
 .circle span {
     display: inline-block;

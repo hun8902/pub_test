@@ -1,7 +1,3 @@
-$(document).ready(function() {
-
-
-});
 $('.open-popup-link').magnificPopup({
   type:'inline',
   midClick: true // Allow opening popup on middle mouse click. Always set it to true if you don't provide alternative source in href.
@@ -10,6 +6,9 @@ $('.open-popup-link').magnificPopup({
 $('.animate').scrolla({
 	mobile: true,
 	once: true
+});
+new vanillaJsuParallax({
+  items: document.querySelectorAll('.circle1, .circle2')
 });
 //슬라이더
 var mySwiper = new Swiper('.swiper-container', {
@@ -27,4 +26,10 @@ var mySwiper = new Swiper('.swiper-container', {
     prevEl: '.swiper-button-prev',
   },
 
-})
+});
+
+
+$(document).ready(function() {
+
+
+});
