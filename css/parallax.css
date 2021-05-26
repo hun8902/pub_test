@@ -1,0 +1,22 @@
+@charset "UTF-8";
+
+div {
+    padding: 200px;
+    text-align: center;
+}
+
+div + div {
+    border-top: 1px solid #ccc;
+}
+
+.circle span {
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background-color: rebeccapurple;
+}
+
+.circle2 span {
+    background-color: blue;
+}
